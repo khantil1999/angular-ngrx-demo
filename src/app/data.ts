@@ -1,4 +1,4 @@
-import { IUserModel } from './model/user.model';
+import {IUserModel} from './model/user.model';
 
 
 export const initDetail: IUserModel = {

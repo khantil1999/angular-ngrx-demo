@@ -1,10 +1,5 @@
-import { createReducer, on } from '@ngrx/store';
-import {
-  addUserSuccess,
-  deleteUserSuccess,
-  getUsersSuccess,
-  updateUserSuccess,
-} from '../actions/user.action';
+import {createReducer, on} from '@ngrx/store';
+import {addUserSuccess, deleteUserSuccess, getUsersSuccess, updateUserSuccess,} from '../actions/user.action';
 import {initialState} from '../state/user.state';
 
 

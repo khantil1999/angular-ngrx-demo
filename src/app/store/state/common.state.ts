@@ -1,4 +1,4 @@
-import {ToastMessageModel} from "../../model/toast-message.model";
+import {ToastMessageModel} from '../../model/toast-message.model';
 
 export interface CommonState {
     toastMessage: ToastMessageModel;

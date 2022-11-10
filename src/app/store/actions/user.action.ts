@@ -1,4 +1,4 @@
-import {Action, createAction, props} from '@ngrx/store';
+import {createAction, props} from '@ngrx/store';
 import {IUserModel} from '../../model/user.model';
 import {UserStateActionsTypes as Types} from '../enums/action-types.enum';
 
@@ -17,6 +17,27 @@ export const updateUserFailure = createAction(Types.UPDATE_USER_FAILURE, props<{
 export const deleteUser = createAction(Types.DELETE_USER, props<{ id: string }>());
 export const deleteUserSuccess = createAction(Types.DELETE_USER_SUCCESS, props<{ id: string }>());
 export const deleteUserFailure = createAction(Types.DELETE_USER_FAILURE, props<{ error: any }>());
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
