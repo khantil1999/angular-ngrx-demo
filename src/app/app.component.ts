@@ -79,7 +79,7 @@ export class AppComponent implements AfterViewInit, OnInit {
         this.action = 'Update';
         this.userForm.patchValue({
             ...data
-        })
+        });
     }
 
     delete(data: IUserModel): void {
@@ -88,6 +88,5 @@ export class AppComponent implements AfterViewInit, OnInit {
 
     clear(): void {
         this.userForm.reset();
-
     }
 }
